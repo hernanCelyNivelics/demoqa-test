@@ -1,4 +1,4 @@
-package commons;
+package com.nivelics.automation.commons;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -16,7 +16,7 @@ public class Base {
 
     static {
         try {
-            System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "src/test/java/com/nivelics/automation/commons/helpers/web/chromedriver.exe");
             ChromeOptions chromeOptions = new ChromeOptions();
             driver = new ChromeDriver(chromeOptions);
             wait = new WebDriverWait(driver, Duration.ofSeconds(1));

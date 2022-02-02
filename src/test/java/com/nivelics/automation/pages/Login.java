@@ -1,6 +1,6 @@
-package pages;
+package com.nivelics.automation.pages;
 
-import commons.Base;
+import com.nivelics.automation.commons.Base;
 
 public class Login extends Base {
 
@@ -42,6 +42,5 @@ public class Login extends Base {
             return false;
         }
     }
-
 }
 
